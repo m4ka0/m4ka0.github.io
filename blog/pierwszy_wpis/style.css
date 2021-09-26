@@ -1,6 +1,6 @@
 #wpis {
-  margin-top; 10px;
-  margin-bottom; 10px
-  margin-left; 100px
-  margin-right; 100px
+  margin: 10px 20px 30px 40px;
+  
+  padding: 10px 80px 50px;
+
 }
