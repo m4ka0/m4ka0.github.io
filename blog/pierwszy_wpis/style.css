@@ -1,6 +1,6 @@
 #wpis {
   text-align: justify;
-  margin: 200px;
+  margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 75px;
   margin-top: 75px;
@@ -8,11 +8,9 @@
 
 #data {
 text-align: right;
+margin-right: 200px;
 }
 
-#zapowiedz {
-text-align: justify;
-}
 
 
 
