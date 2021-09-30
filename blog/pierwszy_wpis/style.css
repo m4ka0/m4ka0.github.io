@@ -1,17 +1,13 @@
 #wpis {
-  text-align: justify;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 25px;
-  margin-top: 75px;
+text-align: justify;
+margin-left: 200px;
+margin-right: 200px;
 }
 #zapowiedz {
 text-align: justify;
 margin-left: 200px;
 margin-right: 200px;
 }
-
-
 #data {
 text-align: right;
 margin-right: 200px;
