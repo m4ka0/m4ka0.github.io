@@ -1,1 +1,102 @@
 
+
+<!DOCTYPE html>
+
+<html>
+
+<body bgcolor ="black">
+
+<link rel="stylesheet" href="style.css">
+
+<head>
+
+
+
+<center><img src="Czy_Hackintoshowanie_ma_obecnie_jakiś_sens_?.png">
+
+
+
+</head>
+
+
+
+<body>
+
+<center><hr>
+
+
+
+
+
+<p id="data"><font size="4"><font color="white"><font face="Monospace">/31/12/2021/</p>
+
+<p id="wpis"><font size="4"><font color="white"><font face="Monospace">
+Już jakiś czas temu zapowiadałem, że pierwszym tematem postu będzie hackintoshowanie w obecnej sytuacji. 
+Jak wiadomo sytuacja z projektami tego typu mocno uległa zmianie w ostatnim czasie. 
+Apple wypuściło komputery z procesorami opartymi na architekturze ARM, co sprawia, że za parę lat coraz trudniej będzie stworzyć hacka z aktualnym systemem macOS. 
+W tym wpisie postaram się przedstawić moje przemyślenia o budowie takiej maszyny, oparte na własnych doświadczeniach.  
+</p>
+
+<p id="wpis"><font size="4"><font color="yellow"><font face="Monospace">Z jakiego powodu go zbudowałem ? Na czym zainstalowałem ?</p>
+
+<p id="wpis"><font size="4"><font color="white"><font face="Monospace">
+Moim głównym powodem, dla którego podjąłem się próby konfiguracji bootloader'a pod macOS, były m in. : możliwość w relatywnie tani i wydajny sposób sprawdzenia nieznanego mi wtedy systemu oraz programów od Apple. 
+Przez wysokie ceny oraz subiektywnie nietrafione decyzje w projektach maszyn (ograniczona możliwość wymiany komponentów czy też mała ilość portów), kupno mac’a wydawało się dla mnie średnim pomysłem. 
+Hackintosh był w takiej sytuacji lepszą koncepcją, (bo to po prostu pecet, co oznacza większą swobodę w np. modyfikowaniu jego wnętrza), więc zdecydowałem się zainstalować macOS na starszym komputerze biurowym od hp (link do stronki z pc „info i specyfikacja”).
+Dzięki niemu lepiej zrozumiałem sam system i cały koncept hackintoshowania.    
+</p>
+
+<p id="wpis"><font size="4"><font color="yellow"><font face="Monospace">Jak się go używa ? Do czego go używam ? Konkluzje z użytkowania ?</p>
+  
+
+<p id="wpis"><font size="4"><font color="white"><font face="Monospace">
+Przy samej instalacji spędziłem około dnia, później zajmowałem się naprawą różnych rzeczy np. audio. Sam proces instalowania nie był szczególnie trudny, lecz wymagał skupienia by nie namieszać w plikach konfiguracyjnych. 
+Pierwszą wersję systemu, którą zainstalowałem był macOS 11, z którym zaznajomiłem się przez użytkowanie go dobrych parę miesięcy.
+Hackintosh, którego ostatecznie zbudowałem, działał całkiem dobrze w podstawowych zadaniach jakimi były:  pisanie i kompilowanie prostego kodu, edycja tekstu oraz arkuszy kalkulacyjnych, przeglądanie internetu i konsumpcja multimediów, co nie powinno dziwić ze względu na całkiem wydajne podzespoły (pomijając kartę graficzną oczywiście).
+System działał całkiem stabilnie, wywalając się tylko 2-3 razy. Po dłuższym czasie korzystania z systemu Apple, zaczęło mi przeszkadzać brak wsparcia dla 32-bitowych aplikacji oraz ciągłe powiadamianie o niebezpieczeństwie korzystania z programów poza app store i konieczność ponownego grzebania w ustawieniach, by móc je włączyć.
+W pewnym momencie zdecydowałem się na zmianę os'u na starszy, wybrałem 10.14 Mojave. Pomimo że część wspomnianych utrudnień nadal była w starszej wersji, to i tak możliwość używania starszych programów była dosyć pomocna. 
+
+Następnie z ciekawości próbowałem zainstalować jakąś dużo starszą wersję.
+Padło na 10.8 Mountain Lion, dzięki któremu zrozumiałem dlaczego mało ludzi bawi się w coś takiego jak retro hackintoshowanie (tak zdaję sobię sprawę że ML to jeszcze nie retro. Mam tu bardziej na myśli wszystkie starsze OS X'y.). 
+Głównym problemem na jaki napotkałem to ogólny brak informacji i czasami pustawe dokumentacje. 
+Mało kto jest zainteresowany marnowaniem czasu na instalowanie nie-wspieranego już od dawna systemu Apple na jakimś starym piecu. 
+Pomimo że bootloader, z którego korzystałem ( Opencore ) umożliwia instalację OS X od 10.4 „Tiger”to jest to raczej traktowane jako ciekawostka i bardziej dopracowane stanowi wsparcie dla nowszych systemów.
+Więc drugim wyjściem było narzędzie Unibeast, o którym wiele pisano w wielu źródłach, lecz nie użyłem go ze względu na nie bycie open-source.
+
+Ogólne odczucie z użytkowania oceniam na całkiem przyjemne, nie miałem specjalnych problemów z codziennymi zadaniami.
+Lecz dzięki możliwości dłuższego użytkowania hacka zrozumiałem że macOS nie jest targetowany we mnie jako użytkownika.
+Pomimo nielubianych przeze mnie cech, musiałem przyznać ,że użytkowanie było całkiem odświeżające, po dłuższym działaniu na linux’ie.  
+  
+</p>
+  
+
+<center><img src="neofetch.png">
+  
+  
+<p id="wpis"><font size="4"><font color="yellow"><font face="Monospace">Czy to ma jakiś sens ?</p>
+  
+<p id="wpis"><font size="4"><font color="white"><font face="Monospace">
+Przechodząc do zasadniczego pytania, czy takie przedsięwzięcie ma sens w dzisiejszych czasach ?
+Myślę, że tak, Hackintoshowanie ma sens, lecz w formie ciekawostki niż faktycznego, pełnego zastąpienia mac’a. 
+Głównym powodem dlaczego tak uważam, to sam proces instalacji, gdyż by zrobić w pełni działającego hack’a zbliżonego najbardziej jak się da do prawdziwego komputera Apple, trzeba spędzić wiele czasu na wyszukiwaniu informacji o tym co zrobić i w jaki sposób, nie mówiąc już o możliwym (rzadko zdarzającym się) zbrickowaniu urządzenia.
+Także specjalne składanie drogiego pieca (dla którego gama kompatybilnych komponentów z macOS z roku na rok się zmniejsza) i spędzanie czasu na sprawianiu by system w ogóle się włączał, ma niewiele sensu w obliczu całkiem wydajnych mac’ów na ARM. Komfort z użytkowania byłby dużo większy ze względy na działanie out of the box sprzętu Apple. 
+Lecz gdy ktoś dla zabawy/hobby chce zrobić hack’a z starego lub taniego komputera, to właściwie czemu nie. Ciekawa forma spędzenia czasu, przy okazji można się trochę dowiedzieć o własnym sprzęcie i jednocześnie pobawić systemem Apple ( jeśli instalacja się oczywiście uda :V ).
+  
+</p>
+ 
+<center><img src="m1.png">
+  
+<p id="zapowiedz">Szczęśliwego Nowego Roku. Tematem następnego wpisu będzie ChromiumOS.<p>
+
+<center><hr>
+
+<a href="../blog.html"><center><font color="yellow"><font size="5">powrót</a></l>
+
+
+
+</body>
+
+</html>
+
+
+
